@@ -1,0 +1,39 @@
+.App {
+
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+.coll{
+  color: #ffffff8c;
+  color: #d47800;
+  color: #131313d5;
+  color: #14151a;
+  color: #ffffff1f;
+  color: #14151a5b;
+  color: #ffa60065;
+  
+}
+
+
+@keyframes mudarCorDaBorda {
+  0% { border-color: #3498db; }
+  50% { border-color: orange; }
+  100% { border-color: #3498db; }
+}
+@keyframes ripple {
+  0% {
+      box-shadow: 0 0 0 0 rgba(9, 255, 0, 0.144), 0 0 0 20px rgba(9, 255, 0, 0.144), 0 0 0 40px rgba(9, 255, 0, 0.144), 0 0 0 60px rgba(9, 255, 0, 0.144);
+  
+    }
+
+  100% {
+      box-shadow: 0 0 0 20px rgba(9, 255, 0, 0.144), 0 0 0 40px rgba(9, 255, 0, 0.144), 0 0 0 60px rgba(9, 255, 0, 0.144), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
